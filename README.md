@@ -1,11 +1,11 @@
-OBJECTIVE:-
+# OBJECTIVE:-
 
 The Dragon-RealEstate project aims to develop a prediction model that, given a collection of property and geographical characteristics, predicts the sale price of residential real estate (houses). The goal is to give all parties involved in real estate (buyers, sellers, and agents) a tool to obtain an equitable, data-driven appraisal of a property based on its features and location.
 Estimate the anticipated market price of a property based on its input factors, such as its size, number of rooms, location, etc.
 Assist in decision-making by determining which features have the biggest impact on price, identifying listings that are overpriced or underpriced, and offering advice on how to enhance features to raise value.
 The model should ideally include interpretability (so users can trust and comprehend predictions) and generalise well to new, unseen houses.
 
-PROBLEM STATEMENT:- 
+# PROBLEM STATEMENT:- 
 
 A vector of characteristics characterising a home (and perhaps its surroundings) is the input.
 A scalar, or estimated sale price, is the output (continuous value).
@@ -18,7 +18,7 @@ Key factors and limitations:
 6. Real-world utility should be reflected in evaluation measures, such as Mean Absolute Error, Root Mean Squared Error, and possibly percentage error metrics.
 Hence, the project can be claimed as a Regression (Supervised Learning) problem aiming to forecast home values based on property attributes, emphasising precision, applicability, and comprehensibility.
 
-DATASET AND FEATURES:- 
+# DATASET AND FEATURES:- 
 
 SOURCE: The dataset “Dragon Real Estate – Price Predictor” is available on Kaggle.
 
@@ -58,7 +58,7 @@ LSTAT           : Numeric	        :  % lower status of the population (i.e. soci
 
 MEDV/PRICE   	  : Numeric	        :  Target — median value of homes (in $1000s) or sale price
 
-NOTES:-
+# NOTES:-
 
 Regression: In machine learning, regression is a supervised learning (dataset provided is labelled) method that uses knowledge of the connection between independent variables (features) and a continuous target variable to predict continuous numerical values. In order to translate input features into a continuous output—such as house prices, stock trends, or temperatures for new, unseen data—a model must be trained on a labelled dataset.
 
