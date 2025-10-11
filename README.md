@@ -28,35 +28,35 @@ DATASET STRUCTURE AND FEATURES:
 
 An inferred schema of the dataset, combining common features seen in such repos and the traditional Boston housing features. 
 
-COLUMN/FEATURE	   TYPE                     DESCRIPTION
+COLUMN/FEATURE	:   TYPE          :            DESCRIPTION
 
-CRIM	          Numeric(float)	   Per capita crime rate by town/neighborhood
+CRIM	          : Numeric(float)	:  Per capita crime rate by town/neighborhood
 
-ZN	            Numeric	           Proportion of residential land zoned for large lots
+ZN	            : Numeric	        :  Proportion of residential land zoned for large lots
 
-INDUS	          Numeric            Proportion of non-retail business (industrial) acres per town
+INDUS	          : Numeric         :  Proportion of non-retail business (industrial) acres per town
 
-CHAS	          Binary/Integer	   Charles River dummy variable (1 if tract bounds river, else 0)
+CHAS	          : Binary/Integer	:  Charles River dummy variable (1 if tract bounds river, else 0)
 
-NOX	            Numeric            Nitric oxides concentration (parts per 10 million)
+NOX	            : Numeric         :  Nitric oxides concentration (parts per 10 million)
 
-RM	            Numeric	           Average number of rooms per dwelling
+RM	            : Numeric	        :  Average number of rooms per dwelling
 
-AGE	            Numeric	           Proportion of owner-occupied units built prior to some cutoff (e.g. 1940)
+AGE	            : Numeric	        :  Proportion of owner-occupied units built prior to some cutoff (e.g. 1940)
 
-DIS	            Numeric	           Weighted distances to employment centers
+DIS	            : Numeric	        :  Weighted distances to employment centers
 
-RAD	            Integer	           Index of accessibility to radial highways
+RAD	            : Integer	        :  Index of accessibility to radial highways
 
-TAX	        	  Numeric            Full-value property tax rate per $10,000
+TAX	        	  : Numeric         :  Full-value property tax rate per $10,000
 
-PTRATIO       	Numeric	           Pupil-teacher ratio by town
+PTRATIO         : Numeric	        :  Pupil-teacher ratio by town
 
-B             	Numeric            A transformation involving proportion of black population 
+B               : Numeric         :  A transformation involving proportion of black population 
 
-LSTAT           Numeric	           % lower status of the population (i.e. socioeconomic measure)
+LSTAT           : Numeric	        :  % lower status of the population (i.e. socioeconomic measure)
 
-MEDV/PRICE   	  Numeric	           Target — median value of homes (in $1000s) or sale price
+MEDV/PRICE   	  : Numeric	        :  Target — median value of homes (in $1000s) or sale price
 
 NOTES:-
 
