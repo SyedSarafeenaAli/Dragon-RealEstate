@@ -1,3 +1,13 @@
+# NOTES:-
+
+Regression: In machine learning, regression is a supervised learning (dataset provided is labelled) method that uses knowledge of the connection between independent variables (features) and a continuous target variable to predict continuous numerical values. In order to translate input features into a continuous output—such as house prices, stock trends, or temperatures for new, unseen data—a model must be trained on a labelled dataset.
+
+Regression Metrics: Common regression metrics in scikit-learn include -                                                                                          
+1. Mean Absolute Error (MAE)
+2. Mean Squared Error (MSE)
+3. R-squared (R²) Score
+4. Root Mean Squared Error (RMSE)
+
 # OBJECTIVE:-
 
 The Dragon-RealEstate project aims to develop a prediction model that, given a collection of property and geographical characteristics, predicts the sale price of residential real estate (houses). The goal is to give all parties involved in real estate (buyers, sellers, and agents) a tool to obtain an equitable, data-driven appraisal of a property based on its features and location.
@@ -57,13 +67,3 @@ B               : Numeric         :  A transformation involving proportion of bl
 LSTAT           : Numeric	        :  % lower status of the population (i.e. socioeconomic measure)
 
 MEDV/PRICE   	  : Numeric	        :  Target — median value of homes (in $1000s) or sale price
-
-# NOTES:-
-
-Regression: In machine learning, regression is a supervised learning (dataset provided is labelled) method that uses knowledge of the connection between independent variables (features) and a continuous target variable to predict continuous numerical values. In order to translate input features into a continuous output—such as house prices, stock trends, or temperatures for new, unseen data—a model must be trained on a labelled dataset.
-
-Regression Metrics: Common regression metrics in scikit-learn include -                                                                                          
-1. Mean Absolute Error (MAE)
-2. Mean Squared Error (MSE)
-3. R-squared (R²) Score
-4. Root Mean Squared Error (RMSE)
