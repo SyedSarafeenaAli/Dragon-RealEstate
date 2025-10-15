@@ -1,8 +1,8 @@
 # THEORY:-
 
-Regression: In machine learning, regression is a supervised learning (dataset provided is labelled) method that uses knowledge of the connection between independent variables (features) and a continuous target variable to predict continuous numerical values. In order to translate input features into a continuous output—such as house prices, stock trends, or temperatures for new, unseen data—a model must be trained on a labelled dataset.
+REGRESSION: In machine learning, regression is a supervised learning (dataset provided is labelled) method that uses knowledge of the connection between independent variables (features) and a continuous target variable to predict continuous numerical values. In order to translate input features into a continuous output—such as house prices, stock trends, or temperatures for new, unseen data—a model must be trained on a labelled dataset.
 
-Regression Metrics: Common regression metrics in scikit-learn include -                                                                                          
+REGRESSION METRICS: Common regression metrics in scikit-learn include -                                                                                          
 1. Mean Absolute Error (MAE)
 2. Mean Squared Error (MSE)
 3. R-squared (R²) Score
